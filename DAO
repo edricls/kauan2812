@@ -49,7 +49,7 @@ public class YourToolsDAO {
             String database = "db_yourtools";
             String url = "jdbc:mysql://" + server + ":3306/" + database + "?useTimezone=true&serverTimezone=UTC";
             String user = "root";
-            String password = "0kanisa0";
+            String password = "sua senha";
 
             connection = DriverManager.getConnection(url, user, password);
 
